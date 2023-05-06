@@ -1,0 +1,167 @@
+*
+{
+    margin:0;
+    padding:0;
+    line-height: 1.6em;
+}
+
+h1, h2, h3
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li, a
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline;
+    margin:0 10px;
+}
+
+.container
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header
+{
+    margin:70px 0 30px 0;
+}
+
+main 
+{
+    padding:0 30px;
+    margin:auto 0;
+}
+
+#about
+{
+    background-color: #22272C;
+    border-radius: 5px;
+    padding:30px 20px;
+    box-shadow: 0px 2px 3px #000
+}
+
+#about h1, #about i{
+    color:#BFD7EA;
+}
+
+#about h2
+{
+    font-size:0.9em;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+#about em, #about p:nth-of-type(2) a{
+    color:#F44E27;
+}
+
+#about p, #about h2
+{
+    color:#F5EDDF;
+}
+
+#about p
+{
+    font-size:1.1em;
+}
+
+#about p:nth-of-type(2){
+    text-align: center;
+    padding:25px;
+}
+
+
+.aboutSocialButtons
+{
+    width:100%;
+    text-align: center;
+}
+
+#about ul
+{
+   display:inline-block;
+}
+
+#technologies{
+    background-color:yellow;
+}
+
+.techContainer
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.techItem
+{
+    background-color:#22272C;
+    margin:5px;
+    padding:15px 0;
+    border-radius:5px;
+    width: 100%;
+    max-width: 200px;
+    text-align:center;
+    box-shadow: 0px 2px 3px #000
+}
+
+.techItem p
+{
+    color:#F5EDDF;
+    font-size:0.8em;
+}
+
+.icon 
+{
+    padding-bottom:10px;
+}
+
+footer p 
+{
+    text-align: center;
+    padding:30px 0;
+}
+
+/*  MEDIA QUERIES */
+
+@media (max-width: 768px) 
+{
+    .techContainer
+    {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) 
+{
+    .container {
+      width: 750px;
+    }
+  }
+@media (min-width: 992px) 
+{
+    .container {
+      width: 970px;
+    }
+  }
+@media (min-width: 1200px) 
+{
+    .container {
+      width: 1000px;
+    }
+  }
