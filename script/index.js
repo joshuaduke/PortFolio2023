@@ -12,12 +12,13 @@ function constructTimelineItem(timelineData)
   let timeline = document.querySelector(".timeline");
   let newEvent = [];
   let newEventStr = "";
-
+  
   // for each item in timelinedata
   // find #timeline
   //  append li and add class event
   // append 3 paragraphs (date, tag, desc)
   // append a tag
+  // only display the most recent 6 achievements
 
   let ulContainer = document.createElement("ul");
   ulContainer.classList.add("event");

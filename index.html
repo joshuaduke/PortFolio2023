@@ -16,31 +16,104 @@
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="">Projects</a></li>
                 <li><a href="">Timeline</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section id="about">
+    <main >
+        <section id="about" class="container">
             <h1>Joshua Duke</h1>
             <h2>Full Stack Developer</h2>
-            <p><em>Hello there</em>, I am a Computer programming and Analysis Graduate from Seneca College. My most recent experience was at TDSB as a Junior web Developer where I helped audit and fix web accessibility issues on over 500 web pages. I enjoy learning new technologies but my preferred stack is <em>MERN</em> (mongoDB, Express, React, Node.js)</p>
+            <p><em>Hello there</em>, I am a Front-End Developer with 2+ years of professional experience. I am a Computer programming and Analysis Graduate from Seneca College where I've studied xyz. My most recent experience was at TDSB as a Junior web Developer where I helped audit and fix web accessibility issues on over 500 web pages. I enjoy learning new technologies but my preferred stack is <em>MERN</em> (mongoDB, Express, React, Node.js)</p>
             <p>Contact Me <a href="">Here!</a></p>
             <div class="aboutSocialButtons">
                 <ul>
-                    <li><a href=""><i class="fab fa-github-square fa-2x"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li><a href="https://github.com/joshuaduke" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/joshua-duke/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                 </ul>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="container">
             <h3>Projects</h3>
-            <a href="" class="btnViewMore"> More projects</a>
+
+            <!-- ARITHMETIC HERO -->
+            <div class="project">
+                <div class="projectInfo">
+                    <div class="projectImage">
+                        <img src="/images/ArithmeticHero.png" alt="">
+                    </div>
+                    <div class="projectTitle">
+                        <h4>Arithmetic Hero</h4>
+                        <div class="projectStack">
+                            <i class="fab fa-html5 fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-sass fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-js-square fa-3x" style="color: #22272C;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectDesc">
+                    <p>This is a game that I created for children to practice their arithmetic skills</p>
+                </div>
+
+                <a href="https://joshuaduke.github.io/SuperHeroMathGameV2/" target="_blank" class="live projectBtn">Live Project</a>
+                <a href="https://github.com/joshuaduke/SuperHeroMathGameV2" target="_blank" class="projectBtn">Github</a>
+            </div>
+
+            <!-- JED MOVIES -->
+            <div class="project">
+                <div class="projectInfo">
+                    <div class="projectTitle">
+                        <h4>J-Movies</h4>
+                        <div class="projectStack">
+                            <i class="fab fa-html5 fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-sass fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-js-square fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-node-js fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-envira fa-3x" style="color: #22272C;"></i>
+                        </div>
+                    </div>
+                    <div class="projectImage">
+                        <img src="/images/JedMovies.png" alt="">
+                    </div>
+                </div>
+                <div class="projectDesc">
+                    <p>This is a game that I created for children to practice their arithmetic skills</p>
+                </div>
+
+                <a href="" target="_blank" class="live projectBtn">Live Project</a>
+                <a href="https://github.com/joshuaduke/movieWatchlist" target="_blank" class="projectBtn">Github</a>
+            </div>
+
+            <!-- ROCK PAPER SCISSORS LIZZARD SPOCK -->
+            <div class="project">
+                <div class="projectInfo">
+                    <div class="projectImage">
+                        <img src="/images//RPSLS.png" alt="">
+                    </div>
+                    <div class="projectTitle">
+                        <h4>RPSLS</h4>
+                        <div class="projectStack">
+                            <i class="fab fa-html5 fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-css3-alt fa-3x" style="color: #22272C;"></i>
+                            <i class="fab fa-js-square fa-3x" style="color: #22272C;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectDesc">
+                    <p>This is a game that I created for children to practice their arithmetic skills</p>
+                </div>
+
+                <a href="https://joshuaduke.github.io/Rock-Paper-Scissors-GUI/" target="_blank" class="live projectBtn">Live Project</a>
+                <a href="https://github.com/joshuaduke/Rock-Paper-Scissors-GUI" target="_blank" class="projectBtn">Github</a>
+            </div>
+
+
+            <a href="" class="btnViewMore"> View all projects</a>
         </section>
 <!-- 
         <section id="posts">
@@ -48,15 +121,15 @@
             <a href="" class="btnViewMore"> More posts</a>
         </section> -->
 
-        <section id="achievements">
-            <h3>Achivements</h3>
+        <section id="achievements" class="container">
+            <h3>Achievements</h3>
 
             <ul class="timeline"></ul>
 
             <a href="" class="btnViewMore"> More Achievements</a>
         </section>
 
-        <section id="technologies">
+        <section id="technologies" class="container">
             <h3>Technologies</h3>
             <div class="techContainer">
                 <div class="techItem">
