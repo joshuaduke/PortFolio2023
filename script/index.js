@@ -23,11 +23,12 @@ function constructTimelineItem(timelineData)
   let ulContainer = document.createElement("ul");
   ulContainer.classList.add("event");
 
+  // need to format date to July 01 2023 MM DD YYYY
   timelineData[0].achievements.forEach(achievement => {
     newEvent.push(`
     <li class="event">
-      <p class="date">${achievement.date}</p>
-      <p class="tag">${achievement.tag}</p>
+      <p class="date">${achievement.date}</p> 
+      <span class="tag">${achievement.tag}</span>
       <p class="desc">${achievement.desc}</p>
 
       ${achievement.link == "" ? "" : `<a href="" target="_blank">Check it out</a>`}
@@ -43,6 +44,7 @@ function constructTimelineItem(timelineData)
   timeline.innerHTML = newEventStr;
 
   let eventNodes = document.querySelectorAll(".event");
+  console.log(eventNodes)
   let firstEvent = eventNodes[0];
   firstEvent.classList.add("offset-first");
 

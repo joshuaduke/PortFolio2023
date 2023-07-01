@@ -60,7 +60,8 @@ li
 header
 {
     width: 100%;
-    height: 130px;
+    height: 110px;
+    
     position: fixed;
     background-color:#F5EDDF;
     border-bottom:1px solid #22272C;
@@ -68,7 +69,7 @@ header
 }
 
 nav{
-    padding:70px 0 30px 0;
+    padding:50px 0 50px 0;
 }
 
 nav a{
@@ -84,13 +85,9 @@ nav a:hover
     color:#F44E27;
 }
 
-.aboutSocialButtons a:hover{
-    color: red;
-}
-
 nav li
 {
-    margin-right:20px;
+    margin-right:30px;
 
 }
 
@@ -99,7 +96,7 @@ main
     width:100%;
     /* padding:0 30px; */
     margin:auto 0;
-    padding-top:130px;
+    padding-top:110px;
 
 }
 
@@ -296,7 +293,7 @@ main
 
 .event {
     position:relative;
-    text-align:center;
+    /* text-align:center; */
     float: right;
     clear: right; 
     width: 45%;
@@ -308,12 +305,13 @@ main
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: .4em;
+    padding: .5em;
     background: white;
     z-index: 15;
     
     color: rgb(77, 77, 77);
-    border: 1px solid lighten(rgb(80,80,80),30%);
+    /* border: 1px solid lighten(rgb(80,80,80),30%); */
+    border:3px solid #EC4C27;
     text-decoration: none;
 
     -webkit-transition: background .15s linear;
@@ -321,6 +319,10 @@ main
     -ms-transition: background .15s linear;
     -o-transition: background .15s linear;
     transition: background .15s linear;
+}
+
+.event p{
+    line-height: 1.6em;
 }
 
 .event.offset-first {
@@ -411,8 +413,55 @@ footer p
 
 /*  MEDIA QUERIES */
 
+/* Mobile */
 @media (max-width: 768px) 
 {
+
+    h3{
+        text-align: center;
+    }
+
+    .container 
+    {
+      /* width: 750px; */
+      padding:0 50px;
+    }
+
+    .projectInfo
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .projectImage img
+    {
+        width:100%;
+        border-radius:10px;
+        box-shadow: 3px 3px 1px #22272C;
+    }
+
+    .timeline{
+        width: 100%;
+        text-align: center;
+    }
+
+    .event.offset-first
+    {
+        margin-top: 0.5em!important;
+    }
+
+    .event
+    {
+        display: inline-block;
+        position: initial;
+        float: none;
+    }
+
+    .event:nth-of-type(2n)
+    {
+        float: none;
+    }
+
     .techContainer
     {
         display:grid;
