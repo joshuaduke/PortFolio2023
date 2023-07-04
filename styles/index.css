@@ -414,8 +414,11 @@ footer p
 /*  MEDIA QUERIES */
 
 /* Mobile */
-@media (max-width: 768px) 
+@media all and (max-width: 768px) 
 {
+    /* body{
+        background-color: red;
+    } */
 
     h3{
         text-align: center;
@@ -436,8 +439,8 @@ footer p
     .projectImage img
     {
         width:100%;
-        border-radius:10px;
-        box-shadow: 3px 3px 1px #22272C;
+        /* border-radius:10px;
+        box-shadow: 3px 3px 1px #22272C; */
     }
 
     .timeline{
@@ -469,40 +472,55 @@ footer p
     }
 }
 
-@media (min-width: 768px) 
+@media all and (max-width: 600px) {
+    .event{
+        width: 85%;
+    }
+
+    /* body{
+        background-color:blue;
+    } */
+    
+}  
+
+
+/*  IPAD PRO */
+@media (max-width: 1199px) 
 {
     .container 
     {
-      /* width: 750px; */
+      /* width: 1200px; */
+      padding:0 50px;
     }
-  }
-@media (min-width: 992px) 
-{
-    .container 
+
+    /* body{
+        background-color:yellow;
+    } */
+
+    .projectImage img
     {
-      /* width: 970px; */
+        width:100%;
     }
-  }
+}
+
 @media (min-width: 1200px) 
 {
     .container 
     {
       /* width: 1200px; */
     }
+
+        /* body{
+        background-color:pink;
+    } */
 }
+
 
 @media all and(min-width:600px){
     .event:nth-of-type(2n) {
         margin-top:2em;
     }
 }
-
-@media all and (max-width: 600px) {
-    .event{
-        width: 85%;
-    }
-    
-}  
 
 /* Timeline ball */
 @media all and (min-width: 650px) {
