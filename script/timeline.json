@@ -5,48 +5,56 @@
         "desc": "Deployed my personal movie watchlist PWA. Made with: Node.js, Ejs, mongoDB",
         "date": "2021-12-19",
         "tag" : "Project",
+        "tagColour":"#53B3CB",
         "link": "https://moviepwa.herokuapp.com/"
       },
       { 
         "desc": "Freelance: hired to create a WordPress website for Eco2Bureau.",
         "date": "2021-11-11",
         "tag" : "Work",
+        "tagColour":"#73937E",
         "link": ""
       },
       { 
         "desc": "Deployed Arithmetic Hero. A arithmetic game for children. Made with: HTML5, JavaScript, Scss",
         "date": "2021-10-26",
         "tag" : "Project",
+        "tagColour":"#53B3CB",
         "link": "https://joshuaduke.github.io/SuperHeroMathGameV2/"
       },
       { 
         "desc": "Graduated from Seneca College (CPA & CPD)",
         "date": "2021-08-13",
         "tag" : "Education",
+        "tagColour":"#8367C7",
         "link": ""
       },
       { 
         "desc": "Completed First Freelance Job, email template for JustWealth",
         "date": "2021-06-21",
         "tag" : "Work",
+        "tagColour":"#73937E",
         "link": ""
       },
       { 
         "desc": "Junior Web Developer Internship at TDSB",
         "date": "2020-01-06",
         "tag" : "Work",
+        "tagColour":"#73937E",
         "link": ""
       },
       { 
         "desc": "Completed Rob Percival’s Web Development 2.0 Course. Tech learned: HTML5, CSS3, JavaScript, Rest APIs, MySQL",
         "date": "2019-09-13",
         "tag" : "Education",
+        "tagColour":"#8367C7",
         "link": "http://ude.my/UC-DK1IEKQ7 "
       },
       { 
          "desc": "Started the CPA program at seneca College",
          "date": "2019-01-07",
          "tag" : "Education",
+         "tagColour":"#8367C7",
          "link": ""
        }
      ]

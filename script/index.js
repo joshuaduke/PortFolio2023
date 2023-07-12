@@ -28,7 +28,7 @@ function constructTimelineItem(timelineData)
     newEvent.push(`
     <li class="event">
       <p class="date">${achievement.date}</p> 
-      <span class="tag">${achievement.tag}</span>
+      <span class="tag" style="background-color:${achievement.tagColour};">${achievement.tag}</span>
       <p class="desc">${achievement.desc}</p>
 
       ${achievement.link == "" ? "" : `<a href="" target="_blank">Check it out</a>`}
